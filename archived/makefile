@@ -1,4 +1,4 @@
-CC = g++-8 -fopenmp
+CC = g++-9 -fopenmp
 PROM = ./bin/DII_STT.ex
 CFLAGS = -I.
 DEPS = $(shell find ./src -name "*.h")
